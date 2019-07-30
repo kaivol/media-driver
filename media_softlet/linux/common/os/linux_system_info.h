@@ -83,6 +83,7 @@ struct LinuxCodecInfo
     uint32_t vp9Vdenc       : 1;
     uint32_t adv0Decoding   : 1;
     uint32_t adv1Decoding   : 1;
+    uint32_t vp9Encoding    : 1;
 };
 
 struct GfxDeviceInfo
